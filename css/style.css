@@ -1,0 +1,448 @@
+body{
+background-color: #fafbff;
+font-family:'Arimo', sans-serif;
+color:#1f234d;
+transition: all 2500ms ease;
+transition-property: all;
+position:relative;
+}
+
+::selection {
+background: #c2dcf2;
+color:#1f234d;
+}
+
+
+/*TESTI*/     
+
+
+h1 {
+font-family: 'Arimo', sans-serif;
+font-size: 1.4em;
+line-height: 110%;
+letter-spacing: 1px;
+font-weight: 600;
+
+}
+
+h2 {
+font-family: 'Arimo', sans-serif;
+font-size: 24px;
+color:#1f234d;
+line-height: 30px;
+text-transform: none;
+font-style: italic;
+}
+
+h3{
+
+font-family: 'Arimo', sans-serif;
+font-size: 14px;
+color:white;
+font-style:initial;
+text-transform: uppercase;
+color:#1f234d;
+margin-top:0px;
+font-weight: 800;
+letter-spacing: 1px;
+
+}
+
+p {
+font-family: 'Arimo', sans-serif;
+font-size: 1.1em;
+color:#1f234d;
+line-height: 200%;
+text-transform: lowercase;
+letter-spacing: 0.5px;
+}
+
+a {color:#8a9096;}
+
+a:hover {
+color:#8a9096;
+text-decoration: none;
+}
+
+.coord{
+
+font-family: 'Lekton', monospace;
+font-size: 1em;
+color:#1f234d;
+/* height: 15px;*/
+line-height: 17px;
+text-transform: none;
+letter-spacing: 0.5px;
+}
+
+/*STILE PAGINA*/
+
+.field h2{
+font-size: 0.8em;
+letter-spacing: 1.4px;
+font-family: 'Arimo', sans-serif;
+text-transform: uppercase;
+font-weight: 700;
+color:#1f234d;
+text-align: left;
+font-style: normal;
+margin-top: auto;
+line-height: 180%;
+
+}
+
+
+.pic h2{
+font-size: 0.8em;
+letter-spacing: 1.4px;
+font-family: 'Arimo', sans-serif;
+text-transform: uppercase;
+font-weight: 700;
+color:#1f234d;
+text-align: left;
+font-style: normal;
+margin-top: auto;
+line-height: 180%;
+}
+
+
+.title a{
+font-weight: 100;
+font-size: 0.8em;
+text-transform: uppercase;
+}
+
+.date p{
+font-weight: 800;
+font-size: 1em;
+}
+
+.description p{
+text-transform: none;
+font-family: 'Arimo', sans-serif;
+font-size: 1.1em;
+color:#1f234d;
+line-height: 150%;
+letter-spacing: 0.5px;
+}
+
+.education{
+color:#1f234d;
+text-align: left;
+}
+}
+
+.education h2{
+font-family: 'Arimo', sans-serif;
+font-size: 1em;
+color:#1f234d;
+/* height: 15px;*/
+line-height: 17px;
+text-transform: lowercase;
+letter-spacing: 0.5px;
+font-weight: 700;
+
+}
+
+.city{
+text-align:right;}
+}
+
+.team {
+text-align:right;
+}
+
+.team p{
+font-weight:700;
+color: #1f234d;
+text-align:right;
+}
+
+.team li{
+list-style:none;
+text-indent:inherit;
+text-align:right;
+}
+
+.info{
+width:100%;
+text-align: right;
+
+}
+
+
+.intro p{
+font-family: 'Arimo', sans-serif;
+font-size: 3em;
+color:#1f234d;
+/* height: 15px;*/
+line-height: 50px;
+text-transform:none;
+letter-spacing: 0.5px;
+font-weight: 400;
+}
+
+.footer{
+padding-top:30px;
+padding-bottom: 50px;
+border-top: 1px solid black;
+margin-top:30px;
+align-content: center;
+padding-right: 0px;
+padding-left: 0px;
+
+}
+
+.footer p{
+height: 0px;
+line-height: 0px;
+text-decoration:none;
+text-align: center;
+color: #1f234d;
+text-transform: uppercase;
+font-size:0.8em;
+font-weight: 400; 
+padding:15px;
+}
+
+}
+
+.winner{
+    border:1px solid #1f234d;
+    padding:20px;
+    margin-bottom: 30px;
+    background-color: black;
+}
+
+.winner-img{
+    padding-left:2px;
+    padding-right:0px;
+    padding-top:20px;
+    
+}
+
+pic{
+    border:1px solid #1f234d;
+}
+
+/*IMMAGINI*/
+
+.portfolio{
+height: 100%;
+width: 100%;
+position:relative;
+margin:auto;
+}
+
+
+img {
+width: 100%;
+height: 100%;
+
+}
+
+
+.image {
+display: block;
+width: 100%;
+height: auto;
+margin-top:50px;
+}
+
+.insta{
+display: inline-block;
+width: 100%;
+height: auto;
+margin-top:30px;
+border:1px solid black;
+cursor: pointer;
+margin-bottom: 50px;
+}
+
+/*
+.insta a:hover{
+    background-color: white;
+    opacity: 0.1;
+        cursor: pointer;
+}
+*/
+
+
+.image-right {
+
+width: 100%;
+height: 100%;
+display: inline-block;
+}
+
+.image-prog {
+display: block;
+width: 100%;
+height: auto;
+margin-top:5%;
+margin-bottom: 5%;
+border:1px solid black;
+}
+
+.video{
+    width: 100%;
+    position: relative;
+    height:600px;
+    margin-bottom: 30px;
+}
+.text {
+color: #1f234d;
+font-family: 'Arimo', sans-serif;
+font-size: 14px;
+font-weight: 700;
+position: absolute;
+text-transform: uppercase;
+letter-spacing: 1px;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+}
+
+.born{
+color: #8a9096;}
+
+.issuuembed{
+    height:300px;
+}
+
+/*MENU*/
+
+.navbar-default {
+background-color: transparent;
+border-style: hidden;
+height: 75px;
+z-index: 999;
+border-bottom: 1px solid #1f234d;
+padding-top: 25px;}
+
+
+#header {
+position:relative;
+margin:auto;
+display:inline; 
+} 
+
+#menu-sin
+{
+font-family: 'Arimo', sans-serif;
+width:100%;
+list-style:none;
+position: relative;
+margin:auto;
+z-index:0;
+display: inline;
+text-align: left;
+font-weight: 700;
+color: #1f234d;
+
+}
+#menu-dx
+{
+font-family: 'Arimo', sans-serif;
+width:100%;
+list-style:none;
+position: relative;
+margin:auto;
+z-index:0;
+display: inline;
+text-align: right;
+font-weight: 700;
+color: #1f234d;
+
+}
+
+#menu-dx a
+{
+display: inline;
+height: 0px;
+line-height: 0px;
+text-decoration:none;
+/*padding-left:10%;*/
+color: #1f234d;
+text-transform: uppercase;
+font-size:0.8em;
+font-weight: 400; 
+}
+
+#menu-sin a
+{
+display: inline;
+height: 0px;
+line-height: 0px;
+text-decoration:none;
+/*padding-left:10%;*/
+color: #1f234d;
+text-transform: uppercase;
+font-size:0.8em;
+font-weight: 400; 
+}
+
+#menu-dx a:hover
+{color:#1f234d;}
+
+#menu-sin a:hover
+{color:#1f234d;}
+
+@media screen and (max-width: 600px) {
+#menu-right {display: none;}
+.description p{font-family: 'Arimo', sans-serif;
+font-size: 1.2em;
+color:#1f234d;
+line-height: 180%;
+text-transform: none;
+letter-spacing: 0.5px;}
+#gif {display:none;}
+h1{font-size: 20px}
+.video{width: 100%;
+position: relative;
+height:100%;
+}
+}
+
+
+@media screen and (max-width: 800px) {
+.team{text-align: left;
+margin-top:40px;
+display: none;}
+.team li{text-align:left;}
+.coord{text-align: left;}
+.city{text-align:left;}
+.video{width: 100%;
+    position: relative;
+    height:400px;
+}
+}
+
+
+
+@media screen and (max-width: 780px) {
+#gif {display:none;}   
+}
+
+
+@media only screen and (min-width: 780px) { 
+#logo {display:none;} 
+}
+
+
+@media only screen and (min-width: 600px) { 
+#iphone {display:none;} 
+}
+/*
+#grad1 {
+height: 25px;
+padding-bottom: 2px;
+background: -webkit-linear-gradient(left, yellow, mediumspringgreen, aquamarine, aqua); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(left, yellow, mediumspringgreen, aquamarine, aqua);  For Opera 11.1 to 12.0 
+background: -moz-linear-gradient(left,yellow, mediumspringgreen, aquamarine, aqua); /* For Fx 3.6 to 15 */
+background: linear-gradient(to right,yellow, mediumspringgreen, aquamarine, aqua); /* Standard syntax (must be last) */
+}
+*/
+
+
