@@ -1,10 +1,11 @@
 body{
 background-color: #fafbff;
-font-family:'Arimo', sans-serif;
+font-family: 'IBM Plex Sans', sans-serif;
 color:#1f234d;
 transition: all 2500ms ease;
 transition-property: all;
 position:relative;
+font-weight:500;
 }
 
 ::selection {
@@ -17,7 +18,7 @@ color:#1f234d;
 
 
 h1 {
-font-family: 'Arimo', sans-serif;
+font-family: 'IBM Plex Sans', sans-serif;
 font-size: 1.4em;
 line-height: 110%;
 letter-spacing: 1px;
@@ -26,7 +27,7 @@ font-weight: 600;
 }
 
 h2 {
-font-family: 'Arimo', sans-serif;
+font-family: 'IBM Plex Sans', sans-serif;
 font-size: 24px;
 color:#1f234d;
 line-height: 30px;
@@ -36,7 +37,7 @@ font-style: italic;
 
 h3{
 
-font-family: 'Arimo', sans-serif;
+font-family: 'IBM Plex Sans', sans-serif;
 font-size: 14px;
 color:white;
 font-style:initial;
@@ -49,7 +50,7 @@ letter-spacing: 1px;
 }
 
 p {
-font-family: 'Arimo', sans-serif;
+font-family: 'IBM Plex Sans', sans-serif;
 font-size: 1.1em;
 color:#1f234d;
 line-height: 200%;
@@ -80,7 +81,7 @@ letter-spacing: 0.5px;
 .field h2{
 font-size: 0.8em;
 letter-spacing: 1.4px;
-font-family: 'Arimo', sans-serif;
+font-family: 'IBM Plex Sans', sans-serif;
 text-transform: uppercase;
 font-weight: 700;
 color:#1f234d;
@@ -95,7 +96,7 @@ line-height: 180%;
 .pic h2{
 font-size: 0.8em;
 letter-spacing: 1.4px;
-font-family: 'Arimo', sans-serif;
+font-family: 'IBM Plex Sans', sans-serif;
 text-transform: uppercase;
 font-weight: 700;
 color:#1f234d;
@@ -119,12 +120,22 @@ font-size: 1em;
 
 .description p{
 text-transform: none;
-font-family: 'Arimo', sans-serif;
+font-family: 'IBM Plex Sans', sans-serif;
 font-size: 1.1em;
 color:#1f234d;
 line-height: 150%;
 letter-spacing: 0.5px;
 }
+
+.description h2{
+text-transform: none;
+font-family: 'IBM Plex Sans', sans-serif;
+font-size: 1.3em;
+color:#1f234d;
+line-height: 150%;
+letter-spacing: 0.5px;
+}
+
 
 .education{
 color:#1f234d;
@@ -134,7 +145,7 @@ margin-bottom:3rem;
 }
 
 .education h2{
-font-family: 'Arimo', sans-serif;
+font-family: 'IBM Plex Sans', sans-serif;
 font-size: 1em;
 color:#1f234d;
 line-height: 17px;
@@ -144,7 +155,7 @@ font-weight: 700;
 }
 
 .education h1{
-font-family: 'Arimo', sans-serif;
+font-family: 'IBM Plex Sans', sans-serif;
 font-size: 1.5em;
 color:#1f234d;
 line-height: 35px;
@@ -153,7 +164,7 @@ font-weight: 700;
 }
 
 .education p{
-font-family: 'Arimo', sans-serif;
+font-family: 'IBM Plex Sans', sans-serif;
 font-size: 1em;
 color:#1f234d;
 /* height: 15px;*/
@@ -192,7 +203,7 @@ text-align: right;
 
 
 .intro p{
-font-family: 'Arimo', sans-serif;
+font-family: 'IBM Plex Sans', sans-serif;
 font-size: 3em;
 color:#1f234d;
 /* height: 15px;*/
@@ -317,7 +328,7 @@ border:1px solid black;
 }
 .text {
 color: #1f234d;
-font-family: 'Arimo', sans-serif;
+font-family: 'IBM Plex Sans', sans-serif;
 font-size: 14px;
 font-weight: 700;
 position: absolute;
@@ -355,7 +366,7 @@ display:inline;
 
 #menu-sin
 {
-font-family: 'Arimo', sans-serif;
+font-family: 'IBM Plex Sans', sans-serif;
 width:100%;
 list-style:none;
 position: relative;
@@ -363,13 +374,13 @@ margin:auto;
 z-index:0;
 display: inline;
 text-align: left;
-font-weight: 700;
+font-weight: 800;
 color: #1f234d;
 
 }
 #menu-dx
 {
-font-family: 'Arimo', sans-serif;
+font-family: 'IBM Plex Sans', sans-serif;
 width:100%;
 list-style:none;
 position: relative;
@@ -416,7 +427,7 @@ font-weight: 400;
 
 @media screen and (max-width: 600px) {
 #menu-right {display: none;}
-.description p{font-family: 'Arimo', sans-serif;
+.description p{font-family: 'IBM Plex Sans', sans-serif;
 font-size: 1.2em;
 color:#1f234d;
 line-height: 180%;
