@@ -14,7 +14,7 @@ color:#1f234d;
 }
 
 
-/*TESTI*/     
+/*TESTI*/
 
 
 h1 {
@@ -29,10 +29,9 @@ font-weight: 600;
 h2 {
 font-family: 'IBM Plex Sans', sans-serif;
 font-size: 24px;
-color:#1f234d;
+color:black;
 line-height: 30px;
 text-transform: none;
-font-style: italic;
 }
 
 h3{
@@ -232,7 +231,7 @@ text-align: center;
 color: #1f234d;
 text-transform: uppercase;
 font-size:0.8em;
-font-weight: 400; 
+font-weight: 400;
 padding:15px;
 }
 
@@ -249,7 +248,7 @@ padding:15px;
     padding-left:2px;
     padding-right:0px;
     padding-top:20px;
-    
+
 }
 
 /*pic{
@@ -361,8 +360,8 @@ padding-top: 25px;}
 #header {
 position:relative;
 margin:auto;
-display:inline; 
-} 
+display:inline;
+}
 
 #menu-sin
 {
@@ -403,7 +402,7 @@ text-decoration:none;
 color: #1f234d;
 text-transform: uppercase;
 font-size:0.8em;
-font-weight: 400; 
+font-weight: 400;
 }
 
 #menu-sin a
@@ -416,7 +415,7 @@ text-decoration:none;
 color: #1f234d;
 text-transform: uppercase;
 font-size:0.8em;
-font-weight: 400; 
+font-weight: 400;
 }
 
 #menu-dx a:hover
@@ -458,24 +457,24 @@ display: none;}
 
 
 @media screen and (max-width: 780px) {
-#gif {display:none;}   
+#gif {display:none;}
 }
 
 
-@media only screen and (min-width: 780px) { 
-#logo {display:none;} 
+@media only screen and (min-width: 780px) {
+#logo {display:none;}
 }
 
 
-@media only screen and (min-width: 600px) { 
-#iphone {display:none;} 
+@media only screen and (min-width: 600px) {
+#iphone {display:none;}
 }
 /*
 #grad1 {
 height: 25px;
 padding-bottom: 2px;
 background: -webkit-linear-gradient(left, yellow, mediumspringgreen, aquamarine, aqua); /* For Safari 5.1 to 6.0 */
-background: -o-linear-gradient(left, yellow, mediumspringgreen, aquamarine, aqua);  For Opera 11.1 to 12.0 
+background: -o-linear-gradient(left, yellow, mediumspringgreen, aquamarine, aqua);  For Opera 11.1 to 12.0
 background: -moz-linear-gradient(left,yellow, mediumspringgreen, aquamarine, aqua); /* For Fx 3.6 to 15 */
 background: linear-gradient(to right,yellow, mediumspringgreen, aquamarine, aqua); /* Standard syntax (must be last) */
 }
@@ -513,4 +512,3 @@ background: linear-gradient(to right,yellow, mediumspringgreen, aquamarine, aqua
   left: 49%;
   animation: 1s pulse ease-out infinite;
 }
-
