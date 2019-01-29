@@ -10,7 +10,7 @@ font-weight:500;
 
 ::selection {
 background: #c2dcf2;
-color:#1f234d;
+color:#000000;
 }
 
 
@@ -36,6 +36,7 @@ text-transform: none;
 
 h2 a{
   color:black;
+  font-size: 52px;
 }
 
 h3{
@@ -87,7 +88,7 @@ letter-spacing: 1.4px;
 font-family: 'IBM Plex Sans', sans-serif;
 text-transform: uppercase;
 font-weight: 700;
-color:#1f234d;
+color:#000000;
 text-align: left;
 font-style: normal;
 margin-top: auto;
@@ -102,7 +103,7 @@ letter-spacing: 1.4px;
 font-family: 'IBM Plex Sans', sans-serif;
 text-transform: uppercase;
 font-weight: 700;
-color:#1f234d;
+color:#000000;
 text-align: left;
 font-style: normal;
 margin-top: auto;
@@ -125,7 +126,7 @@ font-size: 1em;
 text-transform: none;
 font-family: 'IBM Plex Sans', sans-serif;
 font-size: 1.1em;
-color:#1f234d;
+color:#000000;
 line-height: 150%;
 letter-spacing: 0.5px;
 }
@@ -134,14 +135,14 @@ letter-spacing: 0.5px;
 text-transform: none;
 font-family: 'IBM Plex Sans', sans-serif;
 font-size: 1.3em;
-color:#1f234d;
+color:#000000;
 line-height: 150%;
 letter-spacing: 0.5px;
 }
 
 
 .education{
-color:#1f234d;
+color:#000000;
 text-align: left;
 margin-bottom:3rem;
 }
@@ -150,7 +151,7 @@ margin-bottom:3rem;
 .education h2{
 font-family: 'IBM Plex Sans', sans-serif;
 font-size: 1em;
-color:#1f234d;
+color:#000000;
 line-height: 17px;
 text-transform: lowercase;
 letter-spacing: 0.5px;
@@ -160,7 +161,7 @@ font-weight: 700;
 .education h1{
 font-family: 'IBM Plex Sans', sans-serif;
 font-size: 1.5em;
-color:#1f234d;
+color:#000000;
 line-height: 35px;
 letter-spacing: 0.5px;
 font-weight: 700;
@@ -169,7 +170,7 @@ font-weight: 700;
 .education p{
 font-family: 'IBM Plex Sans', sans-serif;
 font-size: 1em;
-color:#1f234d;
+color:#000000;
 /* height: 15px;*/
 line-height: 17px;
 text-transform: none;
@@ -188,7 +189,7 @@ text-align:right;
 
 .team p{
 font-weight:700;
-color: #1f234d;
+color: #000000;
 text-align:right;
 }
 
@@ -208,7 +209,7 @@ text-align: right;
 .intro p{
 font-family: 'IBM Plex Sans', sans-serif;
 font-size: 3em;
-color:#1f234d;
+color:#000000;
 /* height: 15px;*/
 line-height: 50px;
 text-transform:none;
@@ -232,7 +233,7 @@ height: 0px;
 line-height: 0px;
 text-decoration:none;
 text-align: center;
-color: #1f234d;
+color: #000000;
 text-transform: uppercase;
 font-size:0.8em;
 font-weight: 400;
@@ -242,7 +243,7 @@ padding:15px;
 }
 
 .winner{
-    border:1px solid #1f234d;
+    border:1px solid #000000;
     padding:20px;
     margin-bottom: 30px;
     background-color: black;
@@ -256,11 +257,11 @@ padding:15px;
 }
 
 /*pic{
-    border:1px solid #1f234d;
+    border:1px solid #000000;
 }*/
 
 hr{
-    border-color:#1f234d;
+    border-color:#000000;
     margin:4rem 0;
 }
 
@@ -330,7 +331,7 @@ border:1px solid black;
     margin-bottom: 30px;
 }
 .text {
-color: #1f234d;
+color: #000000;
 font-family: 'IBM Plex Sans', sans-serif;
 font-size: 14px;
 font-weight: 700;
@@ -357,7 +358,7 @@ background-color: transparent;
 border-style: hidden;
 height: 75px;
 z-index: 999;
-border-bottom: 1px solid #1f234d;
+border-bottom: 1px solid #000000;
 padding-top: 25px;}
 
 
@@ -378,7 +379,7 @@ z-index:0;
 display: inline;
 text-align: left;
 font-weight: 800;
-color: #1f234d;
+color: #000000;
 
 }
 #menu-dx
@@ -392,7 +393,7 @@ z-index:0;
 display: inline;
 text-align: right;
 font-weight: 700;
-color: #1f234d;
+color: #000000;
 
 }
 
@@ -403,7 +404,7 @@ height: 0px;
 line-height: 0px;
 text-decoration:none;
 /*padding-left:10%;*/
-color: #1f234d;
+color: #000000;
 text-transform: uppercase;
 font-size:0.8em;
 font-weight: 400;
@@ -416,23 +417,23 @@ height: 0px;
 line-height: 0px;
 text-decoration:none;
 /*padding-left:10%;*/
-color: #1f234d;
+color: #000000;
 text-transform: uppercase;
 font-size:0.8em;
 font-weight: 400;
 }
 
 #menu-dx a:hover
-{color:#1f234d;}
+{color:#000000;}
 
 #menu-sin a:hover
-{color:#1f234d;}
+{color:#000000;}
 
 @media screen and (max-width: 600px) {
 #menu-right {display: none;}
 .description p{font-family: 'IBM Plex Sans', sans-serif;
 font-size: 1.2em;
-color:#1f234d;
+color:#000000;
 line-height: 180%;
 text-transform: none;
 letter-spacing: 0.5px;}
