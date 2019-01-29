@@ -45,7 +45,7 @@ font-size: 14px;
 color:white;
 font-style:initial;
 text-transform: uppercase;
-color:#1f234d;
+color:#000000;
 margin-top:0px;
 font-weight: 800;
 letter-spacing: 1px;
@@ -55,7 +55,7 @@ letter-spacing: 1px;
 p {
 font-family: 'IBM Plex Sans', sans-serif;
 font-size: 1.1em;
-color:#1f234d;
+color:#000000;
 line-height: 200%;
 text-transform: lowercase;
 letter-spacing: 0.5px;
@@ -72,7 +72,7 @@ text-decoration: none;
 
 font-family: 'Lekton', monospace;
 font-size: 1em;
-color:#1f234d;
+color:#000000;
 /* height: 15px;*/
 line-height: 17px;
 text-transform: none;
