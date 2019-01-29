@@ -443,6 +443,10 @@ h1{font-size: 20px}
 position: relative;
 height:100%;
 }
+h2 a{
+  color:black;
+  font-size: 45px;
+}
 }
 
 
@@ -456,6 +460,8 @@ display: none;}
 .video{width: 100%;
     position: relative;
     height:400px;
+
+
 }
 }
 
