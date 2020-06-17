@@ -157,6 +157,10 @@ font-weight: 800;
 font-size: 1em;
 }
 
+.description{
+  margin-top:20px;
+}
+
 .description p{
 text-transform: none;
 font-family: 'Inter', sans-serif;
@@ -181,15 +185,38 @@ letter-spacing: 0.5px;
 color:#000;
 text-align: left;
 margin-bottom:3rem;
+
 }
+
+.education a{
+text-align: left;
+transition:1s ease;
+color:#3f52fc;
 }
+
+.education a:hover{
+padding-left:0px;
+border-bottom:1px solid white;
+transition:1s ease;
+}
+
 
 .education h2{
 font-family: 'Inter', sans-serif;
 font-size: 1em;
 color:#000;
-line-height: 17px;
-text-transform: lowercase;
+text-transform: uppercase;
+font-weight: 400;
+margin-top:0px;
+}
+
+.education h6{
+font-family: 'Inter', sans-serif;
+font-size: 0.8em;
+color:#000;
+text-transform: uppercase;
+font-weight: 400;
+margin-top:15px;
 letter-spacing: 0.5px;
 }
 
@@ -197,7 +224,7 @@ letter-spacing: 0.5px;
 font-family: 'Inter', sans-serif;
 font-size: 1.5em;
 color:#000;
-line-height: 35px;
+margin-bottom:20px;
 letter-spacing: 0.5px;
 }
 
@@ -209,8 +236,18 @@ line-height: 17px;
 text-transform: none;
 letter-spacing: 0.5px;
 font-weight: 400;
+}
+
+.education h4{
+font-family: 'Inter', sans-serif;
+font-size: 1em;
+color:#000;
+line-height: 17px;
+letter-spacing: 0.5px;
+font-weight: 400;
 
 }
+
 
 .city{
 text-align:right;}
@@ -569,6 +606,17 @@ margin-right:10px;
   color:#3f52fc;
   text-decoration:none;
   padding-left:20px;
+  }
+
+
+  .title h1 {
+  margin-bottom:20px;
+  }
+
+  .title a{
+  font-weight: 400;
+  font-size: 1em;
+  text-transform: uppercase;
   }
 
 .description p{
