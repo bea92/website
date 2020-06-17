@@ -467,7 +467,7 @@ font-weight: 400;
 #menu-sin a:hover
 {color:#000;}
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 #menu-right {display: none;}
 .description p{
 font-family: 'Inter', sans-serif;
@@ -589,8 +589,8 @@ font-weight: 400;
 }
 
 .image-mob {
-display: inline-block;
-width: 100%;
+display: flex;
+width: 20%;
 height: auto;
 margin-right:10px;
 }
