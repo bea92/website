@@ -17,7 +17,8 @@ background-color: #fff2dc;
   color:#3f52fc;
 }
 #about{
-  background-color: #fff2dc;
+  background: rgb(63,82,252);
+  background: linear-gradient(60deg, rgba(63,82,252,1) 0%, rgba(255,242,220,1) 60%);
 }
 
 #about p, h1, h2, h3{
@@ -60,7 +61,7 @@ h2 {
 font-family: 'Inter', sans-serif;
 font-size: 45px;
 color:#000;
-line-height: 60px;
+line-height: 40px;
 text-transform: none;
 font-weight: 300;
 }
@@ -69,7 +70,7 @@ h2 a{
   color:black;
   font-size: 45px;
   transition:1s ease;
-  line-height: 60px;
+  line-height: 50px;
 }
 
 h3{
@@ -537,7 +538,7 @@ margin-right:10px;
   }
 
   h2, h2 a{
-    line-height: 2em;
+    line-height: 1.7em;
   }
 
   h3{
