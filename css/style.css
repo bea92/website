@@ -38,7 +38,7 @@ body {
 #area>* {
   padding: 40px;
   background: rgb(63, 82, 252);
-  background: linear-gradient(60deg, rgba(63, 82, 252, 1) 0%, rgba(255, 242, 220, 1) 60%);
+  background: linear-gradient(60deg, rgba(88, 105, 255, 0.9) 0%, rgba(88, 105, 255, 0.8) 10%, rgba(255, 242, 220, 1) 60%);
 }
 
 ::selection {
