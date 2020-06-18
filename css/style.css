@@ -178,6 +178,16 @@ a:hover {
   padding-left: 0px;
 }
 
+
+#pub{
+  margin-top:6em;;
+  border-top:2px solid black;
+}
+
+.intro{
+  margin-bottom: 3em;
+}
+
 .education {
   color: #000;
   text-align: left;
@@ -200,6 +210,16 @@ a:hover {
   font-family: 'Inter', sans-serif;
   font-size: 1em;
   color: #000;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-top: 0px;
+  line-height: 1.5;
+}
+
+.education h2 a{
+  font-family: 'Inter', sans-serif;
+  font-size: 1em;
+  color: #3f52fc;
   text-transform: uppercase;
   font-weight: 400;
   margin-top: 0px;
